@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\bin\Debug\netcoreapp2.2\Cadastro Produtos com FOR.deps.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\bin\Debug\netcoreapp2.2\Cadastro Produtos com FOR.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\bin\Debug\netcoreapp2.2\Cadastro Produtos com FOR.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\bin\Debug\netcoreapp2.2\Cadastro Produtos com FOR.dll
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\bin\Debug\netcoreapp2.2\Cadastro Produtos com FOR.pdb
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.dll
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\Cadastro Produtos com FOR\obj\Debug\netcoreapp2.2\Cadastro Produtos com FOR.pdb

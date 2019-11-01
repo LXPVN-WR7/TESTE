@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\bin\Debug\netcoreapp2.2\Tabuada com FOR.deps.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\bin\Debug\netcoreapp2.2\Tabuada com FOR.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\bin\Debug\netcoreapp2.2\Tabuada com FOR.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\bin\Debug\netcoreapp2.2\Tabuada com FOR.dll
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\bin\Debug\netcoreapp2.2\Tabuada com FOR.pdb
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.dll
+C:\Users\fic\Desktop\CSHARP\Tabuada com FOR\obj\Debug\netcoreapp2.2\Tabuada com FOR.pdb

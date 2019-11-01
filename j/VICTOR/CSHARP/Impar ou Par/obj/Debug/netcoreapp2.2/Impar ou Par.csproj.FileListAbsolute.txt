@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\bin\Debug\netcoreapp2.2\Impar ou Par.deps.json
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\bin\Debug\netcoreapp2.2\Impar ou Par.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\bin\Debug\netcoreapp2.2\Impar ou Par.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\bin\Debug\netcoreapp2.2\Impar ou Par.dll
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\bin\Debug\netcoreapp2.2\Impar ou Par.pdb
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.dll
+C:\Users\fic\Desktop\CSHARP\Impar ou Par\obj\Debug\netcoreapp2.2\Impar ou Par.pdb

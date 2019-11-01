@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\bin\Debug\netcoreapp2.2\Do_While_e_Array.deps.json
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\bin\Debug\netcoreapp2.2\Do_While_e_Array.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\bin\Debug\netcoreapp2.2\Do_While_e_Array.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\bin\Debug\netcoreapp2.2\Do_While_e_Array.dll
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\bin\Debug\netcoreapp2.2\Do_While_e_Array.pdb
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.dll
+C:\Users\fic\Desktop\CSHARP\Do_While_e_Array\obj\Debug\netcoreapp2.2\Do_While_e_Array.pdb

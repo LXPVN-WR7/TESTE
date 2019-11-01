@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\bin\Debug\netcoreapp2.2\ex10.deps.json
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\bin\Debug\netcoreapp2.2\ex10.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\bin\Debug\netcoreapp2.2\ex10.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\bin\Debug\netcoreapp2.2\ex10.dll
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\bin\Debug\netcoreapp2.2\ex10.pdb
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.dll
+C:\Users\fic\Desktop\CSHARP\Exercícios\ex10\obj\Debug\netcoreapp2.2\ex10.pdb

@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Victor\bin\Debug\netcoreapp2.2\Victor.deps.json
+C:\Users\fic\Desktop\CSHARP\Victor\bin\Debug\netcoreapp2.2\Victor.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Victor\bin\Debug\netcoreapp2.2\Victor.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Victor\bin\Debug\netcoreapp2.2\Victor.dll
+C:\Users\fic\Desktop\CSHARP\Victor\bin\Debug\netcoreapp2.2\Victor.pdb
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.dll
+C:\Users\fic\Desktop\CSHARP\Victor\obj\Debug\netcoreapp2.2\Victor.pdb

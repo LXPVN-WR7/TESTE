@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\bin\Debug\netcoreapp2.2\Menu Calculadora.deps.json
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\bin\Debug\netcoreapp2.2\Menu Calculadora.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\bin\Debug\netcoreapp2.2\Menu Calculadora.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\bin\Debug\netcoreapp2.2\Menu Calculadora.dll
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\bin\Debug\netcoreapp2.2\Menu Calculadora.pdb
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.dll
+C:\Users\fic\Desktop\CSHARP\Menu Calculadora\obj\Debug\netcoreapp2.2\Menu Calculadora.pdb

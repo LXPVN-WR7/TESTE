@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Tr\bin\Debug\netcoreapp2.2\Tr.deps.json
+C:\Users\fic\Desktop\CSHARP\Tr\bin\Debug\netcoreapp2.2\Tr.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Tr\bin\Debug\netcoreapp2.2\Tr.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Tr\bin\Debug\netcoreapp2.2\Tr.dll
+C:\Users\fic\Desktop\CSHARP\Tr\bin\Debug\netcoreapp2.2\Tr.pdb
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.dll
+C:\Users\fic\Desktop\CSHARP\Tr\obj\Debug\netcoreapp2.2\Tr.pdb

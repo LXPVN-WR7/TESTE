@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Funcionário\bin\Debug\netcoreapp2.2\Funcionário.deps.json
+C:\Users\fic\Desktop\CSHARP\Funcionário\bin\Debug\netcoreapp2.2\Funcionário.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Funcionário\bin\Debug\netcoreapp2.2\Funcionário.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Funcionário\bin\Debug\netcoreapp2.2\Funcionário.dll
+C:\Users\fic\Desktop\CSHARP\Funcionário\bin\Debug\netcoreapp2.2\Funcionário.pdb
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.dll
+C:\Users\fic\Desktop\CSHARP\Funcionário\obj\Debug\netcoreapp2.2\Funcionário.pdb

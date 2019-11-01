@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Aula POO\bin\Debug\netcoreapp2.2\Aula POO.deps.json
+C:\Users\fic\Desktop\CSHARP\Aula POO\bin\Debug\netcoreapp2.2\Aula POO.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Aula POO\bin\Debug\netcoreapp2.2\Aula POO.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Aula POO\bin\Debug\netcoreapp2.2\Aula POO.dll
+C:\Users\fic\Desktop\CSHARP\Aula POO\bin\Debug\netcoreapp2.2\Aula POO.pdb
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.dll
+C:\Users\fic\Desktop\CSHARP\Aula POO\obj\Debug\netcoreapp2.2\Aula POO.pdb

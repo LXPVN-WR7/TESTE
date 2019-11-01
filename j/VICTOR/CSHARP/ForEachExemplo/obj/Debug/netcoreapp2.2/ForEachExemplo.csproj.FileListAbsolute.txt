@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\bin\Debug\netcoreapp2.2\ForEachExemplo.deps.json
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\bin\Debug\netcoreapp2.2\ForEachExemplo.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\bin\Debug\netcoreapp2.2\ForEachExemplo.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\bin\Debug\netcoreapp2.2\ForEachExemplo.dll
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\bin\Debug\netcoreapp2.2\ForEachExemplo.pdb
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.dll
+C:\Users\fic\Desktop\CSHARP\ForEachExemplo\obj\Debug\netcoreapp2.2\ForEachExemplo.pdb

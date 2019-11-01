@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\bin\Debug\netcoreapp2.2\Funções e Métodos.deps.json
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\bin\Debug\netcoreapp2.2\Funções e Métodos.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\bin\Debug\netcoreapp2.2\Funções e Métodos.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\bin\Debug\netcoreapp2.2\Funções e Métodos.dll
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\bin\Debug\netcoreapp2.2\Funções e Métodos.pdb
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.dll
+C:\Users\fic\Desktop\CSHARP\Funções e Métodos\obj\Debug\netcoreapp2.2\Funções e Métodos.pdb

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+header {
+    /*Alterando cor de fundo!*/
+    background: blue;
+    /*Adicionando medida de altura*/
+    height: 300px;
+    /*Adicionando medida de largura*/
+    width: 1366px;
+    margin: 0 auto;
+}
+
+main {
+    background: grey;
+    height: 700px;
+    width: 1366px;
+}
+
+h2 {
+    background: purple;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 30px;
+    width: 200px;
+    margin: 0;
+}
+
+footer {
+    background: blue;
+    height: 200px;
+    width: 1366;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+/*margin-top
+         right 
+         bottom
+         left */

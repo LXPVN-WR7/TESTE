@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\bin\Debug\netcoreapp2.2\Cauculo média e faltas.deps.json
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\bin\Debug\netcoreapp2.2\Cauculo média e faltas.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\bin\Debug\netcoreapp2.2\Cauculo média e faltas.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\bin\Debug\netcoreapp2.2\Cauculo média e faltas.dll
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\bin\Debug\netcoreapp2.2\Cauculo média e faltas.pdb
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.dll
+C:\Users\fic\Desktop\CSHARP\Cauculo média e faltas\obj\Debug\netcoreapp2.2\Cauculo média e faltas.pdb

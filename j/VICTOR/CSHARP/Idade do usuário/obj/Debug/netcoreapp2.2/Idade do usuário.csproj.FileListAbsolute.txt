@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.AssemblyInfo.cs
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\bin\Debug\netcoreapp2.2\Idade do usuário.deps.json
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\bin\Debug\netcoreapp2.2\Idade do usuário.runtimeconfig.json
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\bin\Debug\netcoreapp2.2\Idade do usuário.runtimeconfig.dev.json
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\bin\Debug\netcoreapp2.2\Idade do usuário.dll
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\bin\Debug\netcoreapp2.2\Idade do usuário.pdb
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.dll
+C:\Users\fic\Desktop\CSHARP\Idade do usuário\obj\Debug\netcoreapp2.2\Idade do usuário.pdb
