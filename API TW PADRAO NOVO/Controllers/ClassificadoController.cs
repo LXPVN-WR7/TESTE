@@ -6,8 +6,9 @@ using TW.Models;
 using TW.Repositorios;
 
 namespace TW.Controllers {
-    [Route ("api/[controller]")]
 
+    [Route ("api/[controller]")]
+    
     [ApiController]
 
     [Produces ("application/json")]
@@ -33,6 +34,7 @@ namespace TW.Controllers {
             Classificado classificadoRetornado = await repositorio.Get (id);
 
             if(classificadoRetornado == null){
+
                 return NotFound ();
             }
             return classificadoRetornado;
@@ -44,7 +46,7 @@ namespace TW.Controllers {
 
             try {
                 
-                await repositorio.Post(classificado);
+                await repositorio.Post(classificado);   
 
             } catch (System.Exception) {
 
