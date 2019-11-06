@@ -49,8 +49,8 @@ namespace TW.Controllers {
 
                     var usr = await repositorio.Post (usuario);
 
-                    SendMail (usuario.Email);
-;
+                    UsrOk (usuario.Email);
+
                     return usr;
 
                 } catch (System.Exception) {
@@ -59,7 +59,7 @@ namespace TW.Controllers {
             }
         }
 
-        public bool SendMail (string email) {
+        public bool UsrOk (string email) {
             try {
                 // Estancia da Classe de Mensagem
                 MailMessage _mailMessage = new MailMessage ();
@@ -97,6 +97,46 @@ namespace TW.Controllers {
                 throw ex;
             }
         }
+
+        public bool UsrNot (string email) {
+            try {
+                // Estancia da Classe de Mensagem
+                MailMessage _mailMessage = new MailMessage ();
+                // Remetente
+                _mailMessage.From = new MailAddress ("lxpvnwr7@gmail.com");
+
+                // Destinatario seta no metodo abaixo
+
+                //Contrói o MailMessage
+                _mailMessage.CC.Add (email);
+                _mailMessage.Subject = "TESTELIGHT CODE XP";
+                _mailMessage.IsBodyHtml = true;
+                _mailMessage.Body = "<b>Olá Tudo bem ??</b><p>Teste Parágrafo</p>";
+
+                //CONFIGURAÇÃO COM PORTA
+                SmtpClient _smtpClient = new SmtpClient ("smtp.gmail.com", Convert.ToInt32 ("587"));
+
+                //CONFIGURAÇÃO SEM PORTA
+
+                // SmtpClient _smtpClient = new SmtpClient(UtilRsource.ConfigSmtp);
+
+                // Credencial para envio por SMTP Seguro (Quando o servidor exige autenticação);
+
+                _smtpClient.UseDefaultCredentials = false;
+
+                _smtpClient.Credentials = new NetworkCredential ("lxpvnwr7@gmail.com", "0736867444@");
+
+                _smtpClient.EnableSsl = true;
+
+                _smtpClient.Send (_mailMessage);
+
+                return true;
+
+            } catch (Exception ex) {
+                throw ex;
+            }
+        }
+
 
         [HttpPut ("{id}")]
         public async Task<ActionResult<Usuario>> Put (int id, Usuario usuario) {
