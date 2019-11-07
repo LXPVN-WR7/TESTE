@@ -70,13 +70,18 @@ namespace TW.Controllers {
                 string titulo = $"Parabéns {interesse.IdUsuarioNavigation.NomeCompleto} você foi selecionado - Você acaba de adquirir {interesse.IdClassificadoNavigation.IdEquipamentoNavigation.NomeEquipamento}";
                 // Construct the alternate body as HTML.
 
-                var corpo = Convert.ToString(Process.Start($@"..\ConteudoEmail.html"));
+                string corpo = System.IO.File.ReadAllText(@"ConteudoEMail.html");
+
+                System.Console.WriteLine("Contents of ConteudoEmial.html = {0}", corpo);
+
                 string anexo = @"C:\Users\fic\Desktop\apostila.pdf";
 
                 List<Interesse> lstInteresse = await repositorio.Get ();
 
                 foreach (var item in lstInteresse) {
                     if (item.Comprador == false) {
+                        validacoes.EnvioEmail (item.IdUsuarioNavigation.Email, titulo, corpo, anexo);
+                    }else{
                         validacoes.EnvioEmail (item.IdUsuarioNavigation.Email, titulo, corpo, anexo);
                     }
                 }
