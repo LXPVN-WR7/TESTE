@@ -83,6 +83,8 @@ namespace TW.Controllers {
 
             try {
 
+                var temp = interesse.IdClassificado;
+
                 interesse.Comprador = true;
 
                 var x = await repositorio.Put (interesse);
@@ -97,9 +99,10 @@ namespace TW.Controllers {
                 List<Interesse> lstInteresse = await repositorio.Get ();
 
                 foreach (var item in lstInteresse) {
-                    if (item.Comprador == false) {
+                    if (item.IdClassificado == temp && item.Comprador == false) {
                         validacoes.EnvioEmailUsers (item.IdUsuarioNavigation.Email, titulo, body);
-                    } else {
+                    }else if(item.IdClassificado == temp && item.Comprador == true)
+                    {
 
                         body = System.IO.File.ReadAllText (@"Comprador.html");
                 
