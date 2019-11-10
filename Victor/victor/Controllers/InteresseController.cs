@@ -107,7 +107,7 @@ namespace TW.Controllers {
 
                         System.Console.WriteLine ("Contents of Comprador.html = {0}", body);
 
-                        string anexo = @"C:\Users\fic\Desktop\apostila.pdf";
+                        string anexo = @"C:\Users\gusta\apostila.pdf";
 
                         validacoes.EnvioEmail (item.IdUsuarioNavigation.Email, titulo, body, anexo);
                     }
