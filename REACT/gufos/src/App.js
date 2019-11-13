@@ -11,7 +11,7 @@ function App() { // Rertonando o que esta declarado para o navegador
       <div> {/* div principal */}
          <header className="cabecalhoPrincipal">
             <div className="container">
-               <img src="./assets/img/icon-login.png"/>
+               <img src={require("./assets/img/icon-login.png")}/>
 
                <nav className="cabecalhoPrincipal-nav">
                   <a>Home</a>
