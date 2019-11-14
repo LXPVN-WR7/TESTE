@@ -3,6 +3,30 @@ import '../App.css'; // Importando CSS
 import Rodape from '../componentes/Rodape' //  Importando o componente Rodape
 
 class Categoria extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            listaCategorias : [],
+            titulo : ''
+        }
+    }
+
+    // Função que faz a requisão para a api 
+    // Atribui os dados recebidos ao state listaCategorias
+    // Caso ocorra um erro, exibe no console do navegador
+    buscarCategorias(){
+        fetch('http://localhost:5000/api/categorias')
+        .then(resposta => resposta.json())
+        .then(data => this.setState({ listaCategorias : data}))
+        .catch((erro) => console.log(erro))
+    }
+
+    // Assim que a página for carregada, chama a função buscarCategorias
+    componentDidMount(){
+        this.buscarCategorias();
+    }
+
     render() {
         return (
             <div className="App"> {/* Usando o CSS chamando o nome da classe (App) */}
@@ -27,8 +51,22 @@ class Categoria extends Component {
                                         <th>Título</th>
                                     </tr>
                                 </thead>
-
-                                <tbody id="tabela-lista-corpo"></tbody>
+                                
+                                <tbody id="tabela-lista-corpo">
+                                {/* Utiliar função o map para preencher a lista */}
+                                { 
+                                    // Percorre o array listaCategorias e preenche o campo da tabela
+                                    // com o ID e o título de cada categoria
+                                    this.state.listaCategorias.map(function(categoria){
+                                        return (
+                                            <tr key={categoria.categoriaId}>
+                                                <td>{categoria.categoriaId}</td>
+                                                <td>{categoria.titulo}</td>
+                                            </tr>
+                                        )
+                                    })
+                                }
+                                </tbody>
                             </table>
                         </div>
 
