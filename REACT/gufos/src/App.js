@@ -6,19 +6,13 @@ import './assets/css/cabecalho.css';
 import './assets/css/flexbox.css';
 import './assets/css/reset.css';
 import './assets/css/style.css';
-import BotoesHome from './pages/menu/botoes/BotoesHome';
+import Header from './pages/menu/Header';
 
 function App() { // Rertonando o que esta declarado para o navegador
    return (
       <div> {/* div principal */}
-         <header className="cabecalhoPrincipal">
-            <div className="container">
-               <img src={require("./assets/img/icon-login.png")}/>
-
-               <BotoesHome />
-
-            </div>
-         </header>
+               
+         <Header />
 
          <section className="conteudoImagem">
             <div>
@@ -96,7 +90,7 @@ function App() { // Rertonando o que esta declarado para o navegador
                </div>
             </section>
          </main>
-         <Rodape/>
+         <Rodape />
       </div> // Final da div principal 
    );
 }

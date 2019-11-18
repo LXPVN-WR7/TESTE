@@ -10,13 +10,17 @@ class Categoria extends Component {
             listaCategorias : [],
             titulo : ''
         }
+        // Chamar funções do projeto 
+        this.atualizaEstadoTitulo = this.atualizaEstadoTitulo.bind(this);
+        this.buscarCategorias = this.buscarCategorias.bind(this);
+        this.cadastrarCategoria = this.cadastrarCategoria.bind(this);
     }
 
     // Função que faz a requisão para a api 
     // Atribui os dados recebidos ao state listaCategorias
     // Caso ocorra um erro, exibe no console do navegador
     buscarCategorias(){
-        fetch('http://localhost:5000/api/categorias')
+        fetch('http://localhost:5000/api/categorias')   
         .then(resposta => resposta.json())
         .then(data => this.setState({ listaCategorias : data}))
         .catch((erro) => console.log(erro))
@@ -25,6 +29,31 @@ class Categoria extends Component {
     // Assim que a página for carregada, chama a função buscarCategorias
     componentDidMount(){
         this.buscarCategorias();
+    }
+
+    // Recebe um evento, e recebo o valor do campo titulo
+    atualizaEstadoTitulo(event){
+        this.setState({titulo:event.target.value})
+    }
+
+    cadastrarCategoria(event){
+        event.preventDefault(); // Evito comprtamento padrões
+
+        fetch('http://localhost:5000/api/categorias',
+            {
+                method: 'POST', // Declara o metodo que será utiizado
+                body: JSON.stringify({titulo : this.state.titulo}),
+                headers: {
+                    "Content-type" : "application/json"  
+                }
+            })
+            .then(resposta => {
+                if(resposta.status === 200) {
+                    console.log('Categoria cadastrada!')
+                }
+            })
+            .catch(erro => console.log(erro))
+            .then(this.buscarCategorias)
     }
 
     render() {
@@ -74,14 +103,17 @@ class Categoria extends Component {
                             <h2 class="conteudoPrincipal-cadastro-titulo">
                                 Cadastrar Tipo de Evento
             </h2>
-                            <form>
+                            {/* Adicionar evento para submeter requisição e chamar a função a ser  */}
+                            <form onSubmit={this.cadastrarCategoria}>
                                 <div class="container">
                                     <input
+                                        value={this.state.titulo} // O valor digitado no input vai para  
+                                        onChange = {this.atualizaEstadoTitulo} // Evento do formulário 
                                         type="text"
                                         id="nome-tipo-evento"
                                         placeholder="tipo do evento"
                                     />
-                                    <button class="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro">Cadastrar</button>
+                                    <button type="submit" class="conteudoPrincipal-btn conteudoPrincipal-btn-cadastro">Cadastrar</button>
                                 </div>
                             </form>
                         </div>
