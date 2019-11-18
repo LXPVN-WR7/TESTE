@@ -1,3 +1,4 @@
+
 import React from 'react'; // Importando o objeto React
 // import './App.css'; // Importando o CSS'
 import Rodape from './componentes/Rodape';
@@ -5,6 +6,7 @@ import './assets/css/cabecalho.css';
 import './assets/css/flexbox.css';
 import './assets/css/reset.css';
 import './assets/css/style.css';
+import BotoesHome from './pages/menu/botoes/BotoesHome';
 
 function App() { // Rertonando o que esta declarado para o navegador
    return (
@@ -13,12 +15,8 @@ function App() { // Rertonando o que esta declarado para o navegador
             <div className="container">
                <img src={require("./assets/img/icon-login.png")}/>
 
-               <nav className="cabecalhoPrincipal-nav">
-                  <a>Home</a>
-                  <a>Eventos</a>
-                  <a>Contato</a>
-                  <a className="cabecalhoPrincipal-nav-login" href="login.html">Login</a>
-               </nav>
+               <BotoesHome />
+
             </div>
          </header>
 
