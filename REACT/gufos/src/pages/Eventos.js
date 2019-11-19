@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; // Importando objeto React 
 import Rodape from '../componentes/Rodape';
+import HeaderEstiloOne from './menu/HeaderEstiloOne';
 
 class Eventos extends Component {
 
@@ -77,13 +78,8 @@ class Eventos extends Component {
     render() {
         return (
             <div className="App">
-                <header class="cabecalhoPrincipal">
-                    <div class="container">
-                        <img src={require("../assets/img/icon-login.png")} />
-
-                        <nav class="cabecalhoPrincipal-nav">Administrador</nav>
-                    </div>
-                </header>
+                
+                <HeaderEstiloOne />
 
                 <main class="conteudoPrincipal">
                     <section class="conteudoPrincipal-cadastro">

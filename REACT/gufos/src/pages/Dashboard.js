@@ -1,17 +1,13 @@
 import React, { Component } from 'react'; // Importando objeto React
 import Rodape from '../componentes/Rodape';
+import HeaderEstiloThree from './menu/HeaderEstiloThree';
 
 class Dashboard extends Component {
     render() {
         return (
             <div className="Dashboard">
-                <header class="cabecalhoPrincipal">
-                    <div class="container">
-                        <img src={require("../assets/img/icon-login.png")} />
-
-                        <nav class="cabecalhoPrincipal-nav" id="nav__email">Usuário</nav>
-                    </div>
-                </header>
+                
+                <HeaderEstiloThree />
 
                 <main class="conteudoPrincipal">
                     <div class="container">

@@ -1,8 +1,49 @@
 import React, { Component } from 'react';
 import Rodape from '../componentes/Rodape';
 import '../assets/css/login.css';
+import Axios from 'axios';
 
 class Login extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            email : '',
+            senha : '',
+            erroMensagem : ''
+        }
+    }
+
+    efetuaLogin(event){
+        event.preventDefault();
+        
+        // Primeiro parâmetro URL da requisição 
+        Axios.post('http://localhost:5000/api/login', 
+        {
+            // Segundo parâmetro são os dados
+            email : this.state.email,
+            senha : this.state.senha
+        }) 
+        
+        .then(data => {
+            // Criando uma condição que analiza o status da requisição 
+            if(data.status === 200){
+                localStorage.setItem('usuario-gufos', data.data.token)
+                console.log("Meu token é " + data.data.token)
+            }
+        })
+
+        // Criando um tratamento para o erro
+        .catch(erro => {
+            this.setState({ erroMensagem : "E-mail ou Senha inválidos!" })
+            console.log("E-mail ou Senha inválidos!");
+        })
+    }
+
+    atualizaStateCampo(event){
+        this.setState({ [event.target.name] : event.target.value})
+    }
+
     render() {
         return (
             <div className="App">
@@ -17,25 +58,31 @@ class Login extends Component {
                             <div class="item" id="item__title">
                                 <p class="text__login" id="item__description">Bem-vindo! Faça login para acessar sua conta.</p>
                             </div>
-                            <form>
+                            <form onSubmit={this.efetuaLogin.bind(this)}>
                                 <div class="item">
                                     <input
+                                        // E-mail
                                         class="input__login"
                                         placeholder="username"
                                         type="text"
-                                        name="username"
+                                        value={this.state.email}
+                                        onChange={this.atualizaStateCampo.bind(this)}
+                                        name="email"
                                         id="login__email"/>
                                 </div>
                                 <div class="item">
                                     <input
+                                        // Senha
                                         class="input__login"
                                         placeholder="password"
                                         type="password"
-                                        name="password"
+                                        value={this.state.senha}
+                                        onChange={this.atualizaStateCampo.bind(this)}
+                                        name="senha"
                                         id="login__password"/>
                                 </div>
                                 <div class="item">
-                                    <button class="btn btn__login" id="btn__login">Login</button>
+                                    <button class="btn btn__login" id="btn__login" type="submit">Login</button>
                                 </div>
                             </form>
                         </div>

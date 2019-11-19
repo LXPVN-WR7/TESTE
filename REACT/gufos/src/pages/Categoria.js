@@ -1,6 +1,7 @@
 import React, { Component } from 'react'; // Importante objeto React
 import '../App.css'; // Importando CSS
 import Rodape from '../componentes/Rodape' //  Importando o componente Rodape
+import HeaderEstiloOne from './menu/HeaderEstiloOne';
 
 class Categoria extends Component {
 
@@ -56,18 +57,32 @@ class Categoria extends Component {
             .then(this.buscarCategorias)
     }
 
+    deletarCategoria = (id) => {
+        console.log("Excluindo");
+
+        fetch("http://localhost:5000/api/categorias/" + id, {
+            method : 'DELETE',
+            headers : {
+                "Content-type" : "application/json"
+            }
+        }) 
+
+        .then(response => response.json())  
+        .then(response => {
+            console.log(response);
+            this.listaAtualizada();
+            this.setState( () => ({lista : this.state.lista}) )
+        })
+    
+        .catch(erro => console.group("erro"))
+        .then(this.buscarCategorias)
+    }
+
     render() {
         return (
             <div className="App"> {/* Usando o CSS chamando o nome da classe (App) */}
-                <header class="cabecalhoPrincipal">
-                    <div class="container">
-                        <img src={require("../assets/img/icon-login.png")} />
-
-                        <nav class="cabecalhoPrincipal-nav">
-                            Administrador
-          </nav>
-                    </div>
-                </header>
+                
+                <HeaderEstiloOne />
 
                 <main class="conteudoPrincipal">
                     <section class="conteudoPrincipal-cadastro">
@@ -78,6 +93,7 @@ class Categoria extends Component {
                                     <tr>
                                         <th>#</th>
                                         <th>Título</th>
+                                        <th>Ação</th>
                                     </tr>
                                 </thead>
                                 
@@ -91,9 +107,12 @@ class Categoria extends Component {
                                             <tr key={categoria.categoriaId}>
                                                 <td>{categoria.categoriaId}</td>
                                                 <td>{categoria.titulo}</td>
+                                                <td>
+                                                    <button type="submit" onClick={i => this.deletarCategoria(Categoria.categoriaId)}>Excluir</button>
+                                                </td>
                                             </tr>
                                         )
-                                    })
+                                    }.bind(this))
                                 }
                                 </tbody>
                             </table>

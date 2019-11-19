@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import Rodape from "../componentes/Rodape";
+import HeaderEstiloOne from './menu/HeaderEstiloOne';
 
 class Usuarios extends Component {
     render() {
         return (
             <div>
-                <header class="cabecalhoPrincipal">
-                    <div class="container">
-                        <img src={require("../assets/img/icon-login.png")} />
-
-                        <nav class="cabecalhoPrincipal-nav">
-                            Administrador
-        </nav>
-                    </div>
-                </header>
+                
+                <HeaderEstiloOne />
 
                 <main class="conteudoPrincipal">
                     <section class="conteudoPrincipal-cadastro">
