@@ -74,7 +74,7 @@ class Categoria extends Component {
             this.setState( () => ({lista : this.state.lista}) )
         })
     
-        .catch(erro => console.group("erro"))
+        .catch(error => console.log(error))
         .then(this.buscarCategorias)
     }
 
@@ -108,7 +108,7 @@ class Categoria extends Component {
                                                 <td>{categoria.categoriaId}</td>
                                                 <td>{categoria.titulo}</td>
                                                 <td>
-                                                    <button type="submit" onClick={i => this.deletarCategoria(Categoria.categoriaId)}>Excluir</button>
+                                                    <button type="submit" onClick={i => this.deletarCategoria(categoria.categoriaId)}>Excluir</button>
                                                 </td>
                                             </tr>
                                         )
