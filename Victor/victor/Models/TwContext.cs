@@ -26,7 +26,7 @@ namespace TW.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=Tw;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=Tw;Trusted_Connection=True;");   
             }
         }
 

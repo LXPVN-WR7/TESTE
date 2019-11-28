@@ -100,7 +100,7 @@ namespace TW.Controllers {
                 foreach (var item in lstInteresse) {
                     if (item.IdClassificado == temp && item.Comprador == false) {
                         validacoes.EnvioEmailUsers (item.IdUsuarioNavigation.Email, titulo, body);
-                    }else if(item.IdClassificado == temp && item.Comprador == true)
+                    }else if(item.IdClassificado == temp && item.Comprador == true)             
                     {
 
                         body = System.IO.File.ReadAllText (@"Comprador.html");
@@ -109,7 +109,7 @@ namespace TW.Controllers {
 
                         System.Console.WriteLine ("Contents of Comprador.html = {0}", body);
 
-                        string anexo = @"C:\Users\gusta\apostila.pdf";
+                        string anexo = @"C:\Users\fic\Desktop\apostila.pdf";
 
                         validacoes.EnvioEmail (item.IdUsuarioNavigation.Email, titulo, body, anexo);
                     }
