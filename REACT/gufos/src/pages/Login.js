@@ -10,13 +10,21 @@ class Login extends Component {
         this.state = {
             email : '',
             senha : '',
-            erroMensagem : ''
+            erroMensagem : '',
+            isLoading : false
         }
     }
 
     efetuaLogin(event){
+
         event.preventDefault();
         
+        // Remove a frase de erro do state erroMensagem
+        this.setState({ erroMensagem: '' });
+
+        // Define que a requisição está em andamento
+        this.setState({ isLoading: true });
+
         // Primeiro parâmetro URL da requisição 
         Axios.post('http://localhost:5000/api/login', 
         {
