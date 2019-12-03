@@ -53,7 +53,7 @@
                 <img src="../assets/img/logout.png" alt="ícone de saída">
             </div>
         </nav>
-        
+
         <section id="conteudo_tela_lateral_direita_adm">
             <div id="cabecalho_corpo_adm">
                 <p>Usuários</p>
@@ -61,18 +61,45 @@
             <div id="corpo_conteudo_adm">
                 <div id="limitacao_espaco_corpo_conteudo_adm">
                     <div id="titulos_corpo_conteudo_adm">
-                        <ul id="lista_titulos_corpo_conteudo_adm">
-                            <li>
-                                <a href="#">usuário</a>
-                            </li>
-                            <li>
-                                <a href="#">nome</a>
-                            </li>
-                            <li>
-                                <a href="#">email</a>    
-                            </li>
-                        </ul>                    
+                        <table class="tabela_conteudo_corpo_adm">
+                            <tr id="tabela_titulos_corpo_conteudo_adm">
+                                <th>
+                                    <a id="titulo_usuario" href="#">usuário <img src="../assets/img/drop-down-arrow.png" alt=""></a>
+                                </th>
+
+                                <th>
+                                    <a id="titulo_nome" href="#">nome</a>
+                                </th>
+
+                                <th>
+                                    <a id="titulo_email" href="#">email</a>
+                                </th>
+
+                                <th>
+                                    <a id="titulo_compras" href="#">compras</a>
+                                </th>
+                            </tr>
+                        </table>
                     </div>
+                    <table class="container_usuario_adm">
+                        <tr class="tabela_valores_usuarios_adm">
+                            <td class="checkbox_user_adm">
+                                <form action="">
+                                    <input type="checkbox" name="" id="">
+                                </form>
+                            </td>
+                            <td class="user_img_adm"><img src="../assets/img/17504231_801351553348420_9189595858753956657_o.jpg" alt="imagem de usuário"></td>
+                            <td class="nome_user_adm">Victor costa</td>
+                            <td class="nome_user_completo_adm">Victor Bezerra Costa</td>
+                            <td class="email_user_adm">victorcosta@thoughtworks.com</td>
+                            <td class="numero_compras_adm">0001</td>
+                            <td class="botao_delete_user_adm">
+                                <div id="botao_delete">
+                                    <img src="../assets/img/delete-photo.png" alt="">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </section>

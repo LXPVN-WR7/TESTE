@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 header {
@@ -30,7 +31,7 @@ header {
     height: 32px;
     padding: 4px;
     border-radius: 5px;
-    background: hsla(0,0%,100%,.08);
+    background: hsla(0, 0%, 100%, .08);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -89,7 +90,7 @@ header {
     width: 100%;
     height: 100vh;
     background-image: url(../img/Sem\ título.png);
-    background-repeat: no-repeat;   	
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background: cover;
 }
@@ -97,7 +98,7 @@ header {
 .icon_menu_lateral_adm {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     height: 50px;
     margin-bottom: 18px;
 }
@@ -105,11 +106,10 @@ header {
 .icon_menu_lateral_adm img {
     width: 28px;
     height: 28px;
-
 }
 
 .identificador_menu_lateral_adm {
-    background: rgba(173, 173, 173, 0.164);     
+    background: rgba(173, 173, 173, 0.164);
 }
 
 .identificador_menu_lateral_cor_adm {
@@ -123,7 +123,7 @@ header {
     background: rgba(0, 0, 0, 0.137);
     height: 50px;
     margin-top: 60px;
-    margin-left: 60px;  
+    margin-left: 60px;
     display: flex;
     align-items: center;
 }
@@ -134,7 +134,7 @@ header {
 }
 
 #corpo_conteudo_adm {
-    height: 88.7vh;
+    /* height: 88.7vh; */
     display: flex;
 }
 
@@ -145,19 +145,106 @@ header {
     margin-left: 108px;
 }
 
-#lista_titulos_corpo_conteudo_adm {
+#tabela_titulos_corpo_conteudo_adm {
     display: flex;
-    list-style-type: none;
+    width: 100%;
     margin-top: 20px;
-    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-#lista_titulos_corpo_conteudo_adm a {
+#tabela_titulos_corpo_conteudo_adm a {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 #titulos_corpo_conteudo_adm {
     display: flex;
     justify-content: center;
+}
+
+#titulo_usuario {
+    margin-left: 10.6em;
+}
+
+#titulo_usuario img {
+    width: 10px;
+}
+
+#titulo_nome {
+    margin-left: 12.3em;
+}
+
+#titulo_email {
+    margin-left: 33em;
+}
+
+#titulo_compras {
+    margin-left: 36.1em;
+}
+
+.container_usuario_adm {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.345);
+    border-radius: 7px;
+}
+
+.user_img_adm img {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.container_usuario_adm td {
+    color: #fff;
+}
+
+.checkbox_user_adm {
+    width: 80px;
+}
+
+.checkbox_user_adm form {
+    display: flex;
+    justify-content: center;
+}
+
+.user_img_adm {
+    width: 65px;
+}
+
+.nome_user_adm {
+    width: 250px;
+}
+
+.nome_user_completo_adm {
+    width: 500px;
+}
+
+.email_user_adm {
+    width: 550px;
+}
+
+#botao_delete {
+    width: 33px;
+    height: 33px;
+    background: rgba(0, 0, 0, 0.434);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_delete_user_adm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 21.5px 22px;
+}
+
+.tabela_conteudo_corpo_adm {
+    width: 100%;
 }
