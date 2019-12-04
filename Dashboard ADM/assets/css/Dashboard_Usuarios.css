@@ -5,6 +5,16 @@
     font-size: 16px;
 }
 
+body {
+    background: #1DF8CC;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Sem\ título.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: cover;
+}
+
 header {
     display: flex;
     background: #1F2323;
@@ -77,7 +87,7 @@ header {
 }
 
 #menu_lateral_esquerda_adm {
-    background: #1F2323;
+    background: rgba(0, 0, 0, 0.42);
     width: 60px;
     height: 100%;
     position: fixed;
@@ -85,7 +95,8 @@ header {
     justify-content: center;
 }
 
-#conteudo_tela_lateral_direita_adm {
+
+/* #conteudo_tela_lateral_direita_adm {
     background: #1DF8CC;
     width: 100%;
     height: 100vh;
@@ -93,7 +104,8 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: cover;
-}
+    position: fixed;
+} */
 
 .icon_menu_lateral_adm {
     display: flex;
@@ -121,11 +133,15 @@ header {
 
 #cabecalho_corpo_adm {
     background: rgba(0, 0, 0, 0.137);
+    width: 100%;
     height: 50px;
     margin-top: 60px;
     margin-left: 60px;
     display: flex;
     align-items: center;
+    position: fixed;
+    background-image: url(../img/Sem\ título.png);
+    box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.105);
 }
 
 #cabecalho_corpo_adm p {
@@ -134,117 +150,102 @@ header {
 }
 
 #corpo_conteudo_adm {
-    /* height: 88.7vh; */
+    /* background: red; */
+    width: 96.85vw;
+    height: 100%;
+    margin-left: 60.5px;
+    margin-top: 110px;
     display: flex;
+    justify-content: center;
 }
 
 #limitacao_espaco_corpo_conteudo_adm {
-    /* background: red; */
-    width: 91.8vw;
+    /* background: blue; */
+    width: 91vw;
     height: 100%;
-    margin-left: 108px;
+    /* margin-left: 108px;
+    margin-top: 120px; */
 }
 
-#tabela_titulos_corpo_conteudo_adm {
-    display: flex;
+#tabela_usuarios_adm {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: none;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-#tabela_titulos_corpo_conteudo_adm a {
-    text-decoration: none;
+td,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
     color: #fff;
+    /* border-radius: 5px; */
+}
+
+th {
     text-transform: uppercase;
-    font-size: 14px;
+    padding: 12px 8px 12px 8px;
+    margin-bottom: 30px;
 }
 
-#titulos_corpo_conteudo_adm {
-    display: flex;
-    justify-content: center;
+tr:nth-child(even) {
+    background-color: #0000004d;
 }
 
-#titulo_usuario {
-    margin-left: 10.6em;
-}
-
-#titulo_usuario img {
-    width: 10px;
-}
-
-#titulo_nome {
-    margin-left: 12.3em;
-}
-
-#titulo_email {
-    margin-left: 33em;
-}
-
-#titulo_compras {
-    margin-left: 36.1em;
-}
-
-.container_usuario_adm {
-    width: 100%;
-    height: 80px;
-    background: rgba(0, 0, 0, 0.345);
-    border-radius: 7px;
-}
-
-.user_img_adm img {
-    width: 45px;
-    height: 45px;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-}
-
-.container_usuario_adm td {
-    color: #fff;
-}
-
-.checkbox_user_adm {
-    width: 80px;
-}
-
-.checkbox_user_adm form {
-    display: flex;
-    justify-content: center;
-}
-
-.user_img_adm {
-    width: 65px;
-}
-
-.nome_user_adm {
-    width: 250px;
-}
-
-.nome_user_completo_adm {
-    width: 500px;
-}
-
-.email_user_adm {
-    width: 550px;
+#td_input_adm {
+    border-radius: 10px 0px 0px 10px;
 }
 
 #botao_delete {
+    border-radius: 0px 10px 10px 0px;
+    width: 50px;
+}
+
+#imagem_perfil_usuario {
+    width: 45px;
+    border-radius: 30px;
+}
+
+#td_imagem_adm {
+    width: 55px;
+    height: 60px;
+}
+
+#td_input_adm {
+    width: 60px;
+}
+
+#form_input_user_adm {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+#icon_delete_user {
+    width: 21px;
+}
+
+#box_icon_delete_user {
     width: 33px;
     height: 33px;
-    background: rgba(0, 0, 0, 0.434);
+    background: rgba(0, 0, 0, 0.438);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botao_delete_user_adm {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 21.5px 22px;
+#nome_usuario {
+    width: 250px;
 }
 
-.tabela_conteudo_corpo_adm {
-    width: 100%;
+#numero_compras_user {
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
 }
