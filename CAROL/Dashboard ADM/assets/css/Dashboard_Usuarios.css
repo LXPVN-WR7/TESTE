@@ -6,13 +6,13 @@
 }
 
 body {
-    background: #1DF8CC;
-    width: 100%;
-    height: 100vh;
+    /* background: #1DF8CC; */
+
     background-image: url(../img/Sem\ título.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: cover;
+    background-size: 100% 100%;
 }
 
 header {
@@ -141,6 +141,7 @@ header {
     align-items: center;
     position: fixed;
     background-image: url(../img/Sem\ título.png);
+    background-size: 100%;
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.105);
 }
 
@@ -151,10 +152,10 @@ header {
 
 #corpo_conteudo_adm {
     /* background: red; */
-    width: 95.58vw;
+    width: 94vw;
     height: 100%;
     margin-left: 60.5px;
-    margin-top: 111px;
+    margin-top: 110px;
     display: flex;
     justify-content: center;
 }
@@ -162,75 +163,94 @@ header {
 #limitacao_espaco_corpo_conteudo_adm {
     /* background: blue; */
     width: 91vw;
-    height: 100%;    
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    /* margin-left: 108px;
+    margin-top: 120px; */
 }
 
-#titulos_dashboard_adm {
-    display: flex;
-    /* justify-content: space-around; */
-}
-
-#titulo_nome_user_adm {
-    margin-left: 10.625em;
-}
-
-#titulo_nome_completo_user_adm {
-    /* margin-left: 35px;   */
-}
-
-#titulo_email_user_adm {
-    /* margin-left: 277px; */
-}
-
-#titulo_numero_compras_user_adm {
-    /* margin-left: 579px;   */
-}
-
-#titulos_dashboard_adm p {
-    color: #fff;
-    text-transform: uppercase;
-    padding: 15px;
-}
-
-#corpo_usuario_adm {
+#tabela_usuarios_adm {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: none;
     width: 100%;
-    height: 90px;
-    background: rgba(0, 0, 0, 0.342);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
 }
 
-#img_user_box_adm {
-    margin-left: 50px;
+td,
+th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+    /* border-radius: 5px; */
 }
 
-#img_user_box_adm img {
+th {
+    text-transform: uppercase;
+    padding: 12px 8px 12px 8px;
+    margin-bottom: 30px;
+}
+
+td {
+    background-color: #0000004d;
+}
+
+#td_input_adm {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#botao_delete {
+    border-radius: 0px 10px 10px 0px;
+    width: 50px;
+}
+
+#imagem_perfil_usuario {
     width: 45px;
     border-radius: 30px;
 }
-.dados_user_adm {
+
+#td_imagem_adm {
+    width: 55px;
+    height: 60px;
+}
+
+#td_input_adm {
+    width: 60px;
+}
+
+#form_input_user_adm {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+#icon_delete_user {
+    width: 21px;
+}
+
+#box_icon_delete_user {
+    width: 33px;
+    height: 33px;
+    background: rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome_usuario {
+    width: 250px;
+}
+
+#numero_compras_user {
+    width: 180px;
+}
+
+a {
+    text-decoration: none;
     color: #fff;
+    font-size: 13px;
 }
 
-/* #input_user_box_adm {
-    margin-left: 50px
-}
-
-#nome_user_box_adm {
-    margin-left: 30px;
-}
-
-#nome_completo_user_box_adm {
-    margin-left: 130px;
-}
-
-#email_user_box_adm {
-    margin-left: 300px;
-}
-
-#number_compras_user_box_adm {
-    margin-left: 490px;
+/* #borda_tabela_user_box_adm {
+    height: -5px;
 } */
