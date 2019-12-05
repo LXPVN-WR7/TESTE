@@ -151,7 +151,7 @@ header {
 
 #corpo_conteudo_adm {
     /* background: red; */
-    width: 94vw;
+    width: 96.8vw;
     height: 100%;
     margin-left: 60.5px;
     margin-top: 110px;
@@ -249,7 +249,3 @@ a {
     color: #fff;
     font-size: 13px;
 }
-
-/* #borda_tabela_user_box_adm {
-    height: -5px;
-} */
