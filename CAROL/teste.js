@@ -59,7 +59,7 @@ class Categorias extends Component {
     cadastrarCategoria(event){
 
         event.preventDefault();
-        console.log("Cadastrando");ci
+        console.log("Cadastrando");
 
         fetch("http://localhost:5000/api/categorias", {
            method : "POST",

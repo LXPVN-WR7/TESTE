@@ -8,7 +8,7 @@
 body {
     /* background: #1DF8CC; */
 
-    background-image: url(../img/Sem\ título.png);
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: cover;
@@ -73,7 +73,7 @@ header {
 #img_menu_header_adm {
     width: 30px;
     height: 30px;
-    /* background: #1DF8CC; */
+    background: #1DF8CC;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -94,18 +94,6 @@ header {
     top: 60px;
     justify-content: center;
 }
-
-
-/* #conteudo_tela_lateral_direita_adm {
-    background: #1DF8CC;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/Sem\ título.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: cover;
-    position: fixed;
-} */
 
 .icon_menu_lateral_adm {
     display: flex;
@@ -150,7 +138,6 @@ header {
 }
 
 #corpo_conteudo_adm {
-    /* background: red; */
     width: 96.8vw;
     height: 100%;
     margin-left: 60.5px;
@@ -160,88 +147,44 @@ header {
 }
 
 #limitacao_espaco_corpo_conteudo_adm {
-    /* background: blue; */
     width: 91vw;
-    height: 100%;
-    /* margin-left: 108px;
-    margin-top: 120px; */
+    display: flex;
+    justify-content: center;
 }
 
 #tabela_usuarios_adm {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     border: none;
-    width: 100%;
+    width: 1200px;
 }
 
-td,
+#sombra_tabela_adm {
+    background: rgba(0, 0, 0, 0.185);
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+}
+
 th {
     /* border: 1px solid #dddddd; */
     text-align: left;
-    padding: 8px;
+    padding: 20px;
     color: #fff;
-    /* border-radius: 5px; */
+    text-transform: uppercase;
+}
+td {
+    text-align: left;
+    padding: 25px 20px 25px 20px;
+    color: #fff;
 }
 
-th {
-    text-transform: uppercase;
-    padding: 12px 8px 12px 8px;
-    margin-bottom: 30px;
+tr:nth-child(even) {
+    background-color: #ffffff41;
 }
 
 td {
     background-color: #0000004d;
-}
-
-#td_input_adm {
-    border-radius: 10px 0px 0px 10px;
-}
-
-#botao_delete {
-    border-radius: 0px 10px 10px 0px;
-    width: 50px;
-}
-
-#imagem_perfil_usuario {
-    width: 45px;
-    border-radius: 30px;
-}
-
-#td_imagem_adm {
-    width: 55px;
-    height: 60px;
-}
-
-#td_input_adm {
-    width: 60px;
-}
-
-#form_input_user_adm {
-    display: flex;
-    justify-content: center;
-    margin-left: 5px;
-}
-
-#icon_delete_user {
-    width: 21px;
-}
-
-#box_icon_delete_user {
-    width: 33px;
-    height: 33px;
-    background: rgba(0, 0, 0, 0.438);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#nome_usuario {
-    width: 250px;
-}
-
-#numero_compras_user {
-    width: 180px;
 }
 
 a {

@@ -7,8 +7,7 @@
 
 body {
     /* background: #1DF8CC; */
-
-    background-image: url(../img/Sem\ título.png);
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: cover;
@@ -140,8 +139,7 @@ header {
     display: flex;
     align-items: center;
     position: fixed;
-    background-image: url(../img/Sem\ título.png);
-    background-size: 100%;
+    background-image: url(../img/Background.png);
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.105);
 }
 
@@ -152,8 +150,8 @@ header {
 
 #corpo_conteudo_adm {
     /* background: red; */
-    width: 94vw;
-    height: 100%;
+    width: 95.8vw;
+    /* height: 100%; */
     margin-left: 60.5px;
     margin-top: 110px;
     display: flex;
@@ -164,93 +162,109 @@ header {
     /* background: blue; */
     width: 91vw;
     height: 100%;
+    padding: 50px 0px 0px 0px;
     /* margin-left: 108px;
     margin-top: 120px; */
 }
 
-#tabela_usuarios_adm {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+#conteudo_add_classificado_adm {
+    background: rgba(0, 0, 0, 0.214);
+    /* height: 100%; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#margin_tela_add_classificado_adm {
+    width: 85vw;
+    /* background: yellow; */
+}
+
+#imagens_do_classificado {
+    display: flex;
+}
+
+#imagens_do_classificado_baixa {
+    display: flex;
+}
+
+#style_add_img_adm {
+    background: rgba(255, 255, 255, 0.103);
+    width: 230px;
+    height: 212px;
+    border-radius: 5px;
+}
+
+#input_add_img_adm {
+    width: 230px;
+    height: 212px;
+    border-radius: 5px;
+}
+
+#style_add_img_baixa_adm {
+    background: rgb(255, 255, 255, 0.103);
+    width: 50px;
+    height: 47px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#input_add_img_classificado_baixa_adm {
+    width: 50px;
+    height: 47px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+} 
+
+#inputs_classificado_01 {
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 4em;
+    justify-content: space-between;
+}
+
+.inputs_classificado_02 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 4em;
+    margin-top: 35px;
+}
+
+.formatando_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_classificado_adm {
     border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 13vw;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.103);
+}
+
+#div_uiop_32 {
     width: 100%;
 }
 
-td,
-th {
-    /* border: 1px solid #dddddd; */
-    text-align: left;
-    padding: 8px;
-    color: #fff;
-    /* border-radius: 5px; */
+.formatando_paragrafos {
+    display: flex;
+    margin-top: 35px;
 }
 
-th {
+.formatando_paragrafos {
+    color: #fff;
+}
+
+.espacamento_info {
+    width: 600px;
+}
+
+.mj6yt {
     text-transform: uppercase;
-    padding: 12px 8px 12px 8px;
-    margin-bottom: 30px;
 }
-
-td {
-    background-color: #0000004d;
-}
-
-#td_input_adm {
-    border-radius: 10px 0px 0px 10px;
-}
-
-#botao_delete {
-    border-radius: 0px 10px 10px 0px;
-    width: 50px;
-}
-
-#imagem_perfil_usuario {
-    width: 45px;
-    border-radius: 30px;
-}
-
-#td_imagem_adm {
-    width: 55px;
-    height: 60px;
-}
-
-#td_input_adm {
-    width: 60px;
-}
-
-#form_input_user_adm {
-    display: flex;
-    justify-content: center;
-    margin-left: 5px;
-}
-
-#icon_delete_user {
-    width: 21px;
-}
-
-#box_icon_delete_user {
-    width: 33px;
-    height: 33px;
-    background: rgba(0, 0, 0, 0.438);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#nome_usuario {
-    width: 250px;
-}
-
-#numero_compras_user {
-    width: 180px;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-}
-
-/* #borda_tabela_user_box_adm {
-    height: -5px;
-} */
