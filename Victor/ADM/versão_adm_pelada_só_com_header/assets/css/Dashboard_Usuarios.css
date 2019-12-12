@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    /* background: #1DF8CC; */
+
+    background-image: url(../img/Sem\ título.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: cover;
+    background-size: 100% 100%;
+}
+
+nav {
+    background: #1F2323;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
