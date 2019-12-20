@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/Dashboard_Usuarios.css">
+    <script src="https://kit.fontawesome.com/1eda0e1bc2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body id="corpoUsuario-14">
+
+    <header class="fixed-14">
+        <div id="menu_header_lateral_esquerda_adm-14">
+            <div id="icon_menu_header_adm-14"><i class="fas fa-bars"></i></div>
+
+            <div id="campo_busca_header_adm-14">
+                <i id="icon_campo_busca_header_adm-14" class="fas fa-search"></i>
+                <form action="">
+                    <input type="text" value="" placeholder="Buscar usuário" />
+                </form>
+            </div>
+        </div>
+
+        <div id="menu_header_lateral_direita_adm-14">
+            <p>Victor Costa</p>
+
+            <div id="img_menu_header_adm-14">
+                <p>V</p>
+            </div>
+        </div>
+    </header>
+
+    <main id="conteudo_adm-14">
+        <nav id="menu_lateral_esquerda_adm-14">
+            <div class="identificador_menu_lateral_adm-14">
+                <div class="identificador_menu_lateral_cor_adm-14"></div>
+                <div class="icon_menu_lateral_adm-14">
+                    <a href="./DashUsuario"><img src="../assets/img/user.png" /></a>
+                </div>
+            </div>
+            <div class="icon_menu_lateral_adm-14">
+                <a href="./listarEquipamento"><img src="../assets/img/laptop.png" /></a>
+            </div>
+
+            <div class="icon_menu_lateral_adm-14">
+                <a href="./listarClassificado"><img src="../assets/img/file.png" /></a>
+            </div>
+            <div class="icon_menu_lateral_adm-14">
+                <a href="./listarCategoria"> <img src="../assets/img/categorias.png" /></a>
+            </div>
+            <div class="icon_menu_lateral_adm-14">
+                <a href="#">
+                    <img src="../assets/img/shopping-cart.png" />
+                </a>
+            </div>
+            <div class="icon_menu_lateral_adm-14">
+                <a href="#">
+                    <img src="../assets/img/logout.png" alt="ícone de saída">
+                </a>
+            </div>
+        </nav>
+
+        <section id="conteudo_tela_lateral_direita_adm">
+            <div id="cabecalho_corpo_adm-14">
+                <p>Usuários</p>
+            </div>
+            <div id="corpo_conteudo_adm-14">
+                <div id="limitacao_espaco_corpo_conteudo_adm-14">
+                    <table id="tabela_usuarios_adm-14">
+
+                        <tr>
+                            <th class="tableHead-14"></th>
+                            <th class="tableHead-14"></th>
+                            <th class="tableHead-14">
+                                <a href="#">
+                                    nome de usuário
+                                </a>
+                            </th>
+                            <th class="tableHead-14">
+                                <a href="#">
+                                    nome completo
+                                </a>
+                            </th>
+                            <th class="tableHead-14">
+                                <a href="#">
+                                    email
+                                </a>
+                            </th>
+                            <th class="tableHead-14">
+                                <a href="#">
+                                    compras
+                                </a>
+                            </th>
+                        </tr>
+
+                        <tr key={Usuario.IdUsuario}>
+                            <td class="tableLine-14">
+                                <form id="form_input_user_adm-14" action="">
+                                    <input type="checkbox" name="" id="" />
+                                </form>
+
+                            </td>
+                            <td class="tableLine-14" id="td_imagem_adm-14">
+                            </td>
+                            <td class="tableLine-14" id="nome_usuario-14">{Usuario.nomeUsuario}</td>
+                            <td class="tableLine-14">{Usuario.nomeCompleto}</td>
+                            <td class="tableLine-14">{Usuario.email}</td>
+                            <td class="tableLine-14" id="numero_compras_user-14">{Usuario.idUsuario}</td>
+                            <td class="tableLine-14" id="botao_delete-14">
+                                <a href="#">
+                                    <div id="box_icon_delete_user-14">
+                                        <img id="icon_delete_user" src="../assets/img/delete-photo.png"
+                                            alt="icone do botão de deletar um usuário" />
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr id="borda_tabela_user_box_adm">
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
